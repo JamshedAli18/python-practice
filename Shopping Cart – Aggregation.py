@@ -13,7 +13,7 @@ class Cart:
     def total(self):
         return sum(item.price for item in self.items)  
 
-# Example
+# Creating Object
 cart = Cart()
 cart.add(Product("Phone", 500))
 cart.add(Product("Charger", 50))
