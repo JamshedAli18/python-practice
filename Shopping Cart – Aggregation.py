@@ -11,7 +11,7 @@ class Cart:
         self.items.append(product)
 
     def total(self):
-        return sum(item.price for item in self.items)
+        return sum(item.price for item in self.items)  
 
 # Example
 cart = Cart()
