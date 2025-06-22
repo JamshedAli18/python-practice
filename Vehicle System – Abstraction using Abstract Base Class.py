@@ -13,7 +13,8 @@ class Bike(Vehicle):
     def start(self):
         print("Bike started")
 
-# Example
+
+# creating objects
 v1 = Car()
 v2 = Bike()
 v1.start()
